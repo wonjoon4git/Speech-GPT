@@ -1,4 +1,4 @@
-# Recommended Setup (for Mac OS, but very similar in Windows)
+# Recommended Setup (for Mac OS)
 
 To successfully run this app, follow these steps:
 
