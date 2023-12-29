@@ -1,3 +1,7 @@
+# About the Chatbot
+- **Purpose**: This chatbot is designed to answer questions about President Joe Biden's speech regarding the Russian-Ukraine war.
+- **Tools Used**: Langchain, Streamlit  
+
 # Recommended Setup (for Mac OS)
 
 To successfully run this app, follow these steps:
@@ -23,10 +27,6 @@ To successfully run this app, follow these steps:
 
 7. **Run the Main Application**:
    - Start the app with: `streamlit run SpeechGPT.py`.
-
-# About the Chatbot
-- **Purpose**: This chatbot is designed to answer questions about President Joe Biden's speech regarding the Russian-Ukraine war.
-- **Tools Used**: Langchain, Streamlit  
 
 # Demonstration
 ![172 27 142 80_8501_](https://github.com/wonjoon4git/Speech-GPT/assets/96000435/d4dcd503-a9bb-4e21-ace9-fa71aa03e295)
