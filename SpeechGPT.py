@@ -16,7 +16,7 @@ class ChatCallbackHandler(BaseCallbackHandler):
     
     # Callback for the start of language model processing
     def on_llm_start(self, *args, **kwargs):
-        self.message_box = st.empty()
+        self.message_box = st.empty() # creates an empty box
 
     # Callback for the end of language model processing
     def on_llm_end(self, *args, **kwargs):
