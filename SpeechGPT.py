@@ -10,7 +10,7 @@ from langchain.memory import ConversationBufferWindowMemory
 from langchain.callbacks.base import BaseCallbackHandler
 import streamlit as st
 
-# Custom callback handler class for handling callbacks in the chat application
+# Custom callback handler class as an event listener in the chat application
 class ChatCallbackHandler(BaseCallbackHandler):
     message = ""
     
