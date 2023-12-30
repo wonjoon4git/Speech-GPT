@@ -37,6 +37,7 @@ llm = ChatOpenAI(
 )
 
 # Function to embed a file (Speech.pdf in our case) and prepare it for retrieval
+# This function will only run when we don't have the embedding of "Speech.pdf."
 @st.cache_data(show_spinner="Loading...")
 def embed_file():
     file_path = "./.cache/files/Speech.pdf"
